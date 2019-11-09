@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/rambala/Documents/C Programs/map/map.c
+map.h
+/Users/rambala/Documents/C Programs/map/map.h
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+
+/Users/rambala/Documents/C Programs/map/map.h
+street.h
+/Users/rambala/Documents/C Programs/map/street.h
+
+/Users/rambala/Documents/C Programs/map/street.c
+street.h
+/Users/rambala/Documents/C Programs/map/street.h
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+
+/Users/rambala/Documents/C Programs/map/street.h
+
